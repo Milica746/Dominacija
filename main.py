@@ -2,7 +2,7 @@ import pygame
 from dominacija.constants import *
 from dominacija.board import Board
 import PySimpleGUI as sg
-sg.theme('SystemDefaultForReal')  
+sg.theme('Default1')  
 
 layout = [
     [sg.Text('Please enter the number of rows and columns!')],
@@ -18,6 +18,8 @@ print(event, values[0], values[1])
 
 
 #FPS=60
+
+
 WIN = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.display.set_caption('Dominacija')
 
